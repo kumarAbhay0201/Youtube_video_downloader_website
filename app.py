@@ -46,3 +46,8 @@ if st.button("Search"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please paste a valid URL.")
+
+st.markdown("""
+<meta name="description" content="Free YouTube Downloader: Download videos and MP3 from YouTube instantly. Fast, easy, no login required."/>
+<meta name="keywords" content="YouTube downloader, download mp3, youtube to mp4, online downloader"/>
+""", unsafe_allow_html=True)
